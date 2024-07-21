@@ -2,7 +2,7 @@
 
 ![Overview](asset/Overview.jpg)
 
-**📦 Datasets:** Download the training and evaluation datasets from [RLCoderEvalData](https://huggingface.co/datasets/nov3630/RLCoderEvalData) to the `/data` folder.
+**📦 Datasets:** Download the training and evaluation datasets from [Data4RLCoder](https://huggingface.co/datasets/nov3630/Data4RLCoder) to the `/data` folder.
 
 **🔧 Models:** The trained `RLRetriever` is available at [RLRetriever](https://huggingface.co/nov3630/RLCoder).
 
