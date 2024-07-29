@@ -497,7 +497,7 @@ if __name__ == "__main__":
     parser.add_argument("--disable_stop_block", action="store_true", help="Disable the stop block")
 
     parser.add_argument("--enable_repocoder", action="store_true", help="Use the repocoder method during generation")
-    parser.add_argument("--rlcoder_model_path", default="", type=str, help="RLCoder model path")
+    parser.add_argument("--rlcoder_model_path", default="microsoft/unixcoder-base", type=str, help="Stage 1 model for repocoder")
 
     parser.add_argument("--do_codereval", action="store_true", help="Execute codereval evaluation in docker")
     parser.add_argument("--enable_forward_generation", action="store_true", help="Use progressive generation methods during inference")
