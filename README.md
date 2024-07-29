@@ -67,7 +67,7 @@ python main.py \
     --enable_generation \
     --enable_repocoder \
     --inference_type unixcoder_with_rl \
-    --rlcoder_model_path '' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
+    --rlcoder_model_path 'nov3630/RLRetriever' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
     --output_dir result/RepoCoder_rl \
     2>&1|tee log/RepoCoder_rl.log
 ```
@@ -117,6 +117,7 @@ python main.py \
     --enable_repocoder \
     --inference_type unixcoder_with_rl \
     --generator_model_path deepseek-ai/deepseek-coder-6.7b-base \
+    --rlcoder_model_path 'microsoft/unixcoder-base' \
     --generator_max_crossfile_length 1536 \
     --generator_max_context_length 2048 \
     --generator_batch_size_per_gpu 16 \
@@ -130,7 +131,7 @@ python main.py \
     --enable_generation \
     --inference_type unixcoder_with_rl \
     --generator_model_path deepseek-ai/deepseek-coder-6.7b-base \
-    --retriever_model_path '' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
+    --retriever_model_path 'nov3630/RLRetriever' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
     --generator_max_crossfile_length 1536 \
     --generator_max_context_length 2048 \
     --generator_batch_size_per_gpu 16 \
@@ -214,7 +215,7 @@ python main.py \
     --enable_generation \
     --inference_type unixcoder_with_rl \
     --generator_model_path deepseek-ai/deepseek-coder-6.7b-base \
-    --retriever_model_path '' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
+    --retriever_model_path 'nov3630/RLRetriever' \ # path to trained RLCoder, eg. 'result/RLCoder/retriever_cpkt/result_0'
     --generator_max_crossfile_length 1536 \
     --generator_max_context_length 2048 \
     --generator_batch_size_per_gpu 16 \
@@ -311,6 +312,7 @@ python main.py \
     --inference_type unixcoder_with_rl \
     --generator_model_path deepseek-ai/deepseek-coder-6.7b-base \
     --retriever_model_path '' \ # path to trained RepoCoder_rl, eg. 'result/RepoCoder_rl/retriever_cpkt/result_0'
+    --rlcoder_model_path 'nov3630/RLRetriever' \
     --generator_max_crossfile_length 1536 \
     --generator_max_context_length 2048 \
     --generator_batch_size_per_gpu 16 \
