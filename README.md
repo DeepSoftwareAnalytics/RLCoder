@@ -6,9 +6,9 @@ In this paper, we introduce a reinforcement learning framework for repository-le
 
 The core module, RLRetriever, is a retriever that can disregard seemingly useful yet ultimately useless reference code snippets, focusing instead on those more likely to contribute to accurate code generation.
 
-**📦 Datasets:** Download the training and evaluation datasets from [Data4RLCoder](https://huggingface.co/datasets/nov3630/Data4RLCoder) to the `/data` folder.
-
 **🔧 Models:** The trained `RLRetriever` is available at [RLRetriever](https://huggingface.co/nov3630/RLCoder).
+
+**📦 Datasets:** Download the training and evaluation datasets from [Data4RLCoder](https://huggingface.co/datasets/nov3630/Data4RLCoder) to the `/data` folder.
 
 ---
 
