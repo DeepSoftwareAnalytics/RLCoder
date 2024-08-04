@@ -330,3 +330,18 @@ python main.py \
 
 ## Case Study
 ![Case_Study](asset/Case_Study.jpg)
+
+## Citation
+ 
+**BibTeX:**
+```
+@misc{wang2024rlcoderreinforcementlearningrepositorylevel,
+      title={RLCoder: Reinforcement Learning for Repository-Level Code Completion}, 
+      author={Yanlin Wang and Yanli Wang and Daya Guo and Jiachi Chen and Ruikai Zhang and Yuchi Ma and Zibin Zheng},
+      year={2024},
+      eprint={2407.19487},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2407.19487}, 
+}
+```
