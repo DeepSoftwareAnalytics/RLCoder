@@ -1,6 +1,6 @@
 # 🖥️ RLCoder: Reinforcement Learning for Repository-Level Code Completion
 
-📄 This repository contains the code of the ICSE 2025 paper "[RLCoder: Reinforcement Learning for Repository-Level Code Completion](https://arxiv.org/abs/2407.19487)".
+📄 This repository contains the implementation for the ICSE 2025 paper, "[RLCoder: Reinforcement Learning for Repository-Level Code Completion](https://arxiv.org/abs/2407.19487)".
 
 > In this paper, we introduce a reinforcement learning framework for repository-level code completion. 
 > The core module, RLRetriever, is a retriever that can disregard seemingly useful yet ultimately useless reference code snippets, focusing instead on those more likely to contribute to accurate code generation.
